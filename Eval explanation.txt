@@ -1,0 +1,5 @@
+Eval explanation:
+1.Check number of 4's of current player+3's+2's+1's in horizontal,vertical and diagonal 
+2.Check the same for opponent player 
+(1-2) will give maximum score the current player can get-score obtained by optimal opposite player
+ 

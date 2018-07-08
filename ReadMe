@@ -1,0 +1,37 @@
+Name:Shilpa Shree
+Student ID:1001540443
+
+Programming Language used: JAVA
+
+How the code is structured?
+AiPlayer.java- MINIMAX algorithm, to fetch optimal solution by returning optimal column from the function when computer plays.
+node.java- To create a successor for the parent.
+GameBoard.java- This class contains game-board state, function to get next player, keep tracks of empty cells to fill in,prints the gameboard state to a file or in console,
+and function to get the score of the player.
+Maxconenct4.java- This contains main class. Check if 4 arguments are passed. Based on interactive or one-move the control is passed to computer or human from this function.
+
+How to execute the code?
+Check if .class files are present in the src file, if present delete it and compile the code 
+Compile the code using- javac Maxconnect4.java GameBoard.java node.java AiPlayer.java
+
+One-Move mode:
+java Maxconnect4 one-move Input1.txt output1.txt 1
+make sure Input1.txt and output1.txt exists in src folder
+after each execution make sure you copy the contains of output1.txt to input1.txt for continuing the game with one-move mode.
+
+Interactive mode:
+java Maxconnect4 interactive Input1.txt computer-next 2
+for computer-next: it gives human first chance to make a move
+
+for human-next:
+java Maxconnect4 interactive Input1.txt human-next 2
+for human-next: computer plays first and then human
+
+Citations:
+https://github.com/arjunvekariyagithub/MaxConnect4
+https://github.com/mpatt3970/Connect_4/blob/master/src/mines/mipatter/maxconnect4.java
+https://github.com/jn1772/Connect4AI
+https://www.mkyong.com/java/how-to-write-to-file-in-java-bufferedwriter-example/
+https://stackoverflow.com/questions/2885173/how-do-i-create-a-file-and-write-to-it-in-java
+https://msdn.microsoft.com/en-us/library/system.io.file.exists(v=vs.110).aspx 
+
